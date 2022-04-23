@@ -1,7 +1,7 @@
 Package: lambdr
 Title: Create a Runtime for Serving Containerised R Functions on 'AWS
         Lambda'
-Version: 1.1.0
+Version: 1.2.0
 Authors@R: 
     c(person(given = "David",
              family = "Neuzerling",
@@ -17,7 +17,7 @@ Description: Runtime for serving containers that can execute R code on the
     required for accepting new input and sending responses.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports: httr, jsonlite, logger
 Suggests: withr, testthat (>= 3.0.0), webmockr, knitr, rmarkdown,
         lifecycle
@@ -27,9 +27,9 @@ URL: https://lambdr.mdneuzerling.com/,
 BugReports: https://github.com/mdneuzerling/lambdr/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-11-14 21:23:32 UTC; mdneuzerling
+Packaged: 2022-04-23 01:37:41 UTC; mdneuzerling
 Author: David Neuzerling [aut, cre],
   James Goldie [ctb]
 Maintainer: David Neuzerling <david@neuzerling.com>
 Repository: CRAN
-Date/Publication: 2021-11-15 20:00:02 UTC
+Date/Publication: 2022-04-23 06:50:02 UTC
