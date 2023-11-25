@@ -1,7 +1,7 @@
-e1c783e2120a38e6c0953be6afc657ea *DESCRIPTION
+88ec70ff7a9af6ee926a5776ad6e17ff *DESCRIPTION
 e89362da79c19e68211da36331e53f78 *LICENSE
 f376af058738400647afce0d35bbf1f3 *NAMESPACE
-3b41b34b16dcbe459d36ca6917f3f4d4 *NEWS.md
+13fce86f2810630659563e9734bb5074 *NEWS.md
 ed32cac7f40953a8f9ef7c6f34e0c669 *R/endpoints.R
 cdfca2a76f506fd868e293771fc0d306 *R/error-handling.R
 6308b47ef9690e2da0e389021f0e90a6 *R/eventbridge-events.R
@@ -19,7 +19,7 @@ df933ccd9b6acc55b87dcba4e28f4934 *R/start-lambda.R
 463c099392418db78155be5a80ef6f4f *R/start-listening.R
 947af447cffef605df38fc3d7c51beca *R/utils-html.R
 ceaf0aadb852fe055db7e4acdf0764e3 *R/utils.R
-9113cd66083ce1aa4305aadb115158d7 *README.md
+27abbbed3e35f3d3e091a04fd8b075c0 *README.md
 e2ec3f18c8fa43eb03ca6aa5047cf29e *build/vignette.rds
 fb09306f811c5fd898a2403e53e730d1 *inst/doc/api-gateway-invocations.Rmd
 c1a9b85f0fbacc2003f7e66a0a4eb518 *inst/doc/api-gateway-invocations.html
@@ -30,8 +30,8 @@ a6f9dcdcf80f19bc3f95202ac7a76080 *inst/doc/context.html
 d0eca2d58194ad772c7b03c518950488 *inst/doc/eventbridge-and-sns-invocations.Rmd
 4cd6b3f44a00f7369d0c76c5e8da7ad8 *inst/doc/eventbridge-and-sns-invocations.html
 f5101418889291ac16c8f29a6175792c *inst/doc/lambda-runtime-in-container.R
-42d8d0b62ab6e479c1367df47e6aefa2 *inst/doc/lambda-runtime-in-container.Rmd
-b3cdee74b83b5b940e06dacc82a08f97 *inst/doc/lambda-runtime-in-container.html
+75e723025642993352e9e7421c09d5e3 *inst/doc/lambda-runtime-in-container.Rmd
+bcaabed5891fa95b9f89adfaaac888e2 *inst/doc/lambda-runtime-in-container.html
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/package-structure.R
 003a9765ac9c7ee60d1859d7b19150cd *inst/doc/package-structure.Rmd
 6c93f185952ee183d632e2d9df656044 *inst/doc/package-structure.html
@@ -109,6 +109,6 @@ c0ecc4e1738e3f4280f5cc4a713d5fdc *tests/testthat/test-start-listening.R
 fb09306f811c5fd898a2403e53e730d1 *vignettes/api-gateway-invocations.Rmd
 c08acb053a42e5dd2f621e2f374af58d *vignettes/context.Rmd
 d0eca2d58194ad772c7b03c518950488 *vignettes/eventbridge-and-sns-invocations.Rmd
-42d8d0b62ab6e479c1367df47e6aefa2 *vignettes/lambda-runtime-in-container.Rmd
+75e723025642993352e9e7421c09d5e3 *vignettes/lambda-runtime-in-container.Rmd
 003a9765ac9c7ee60d1859d7b19150cd *vignettes/package-structure.Rmd
 b07e1de5cfb215667e2e4c7f2b713414 *vignettes/start-listening.drawio.svg

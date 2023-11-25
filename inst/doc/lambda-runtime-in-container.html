@@ -361,8 +361,8 @@ argument and returns its parity as a named list, for example:</p>
 <strong>example</strong> is provided below, but the key components
 are:</p>
 <ul>
-<li>Start from the <code>public.ecr.aws/lambda/provided</code> parent
-image, which provides the basic components necessary to serve a
+<li>Start from the <code>public.ecr.aws/lambda/provided:al2</code>
+parent image, which provides the basic components necessary to serve a
 Lambda</li>
 <li>Install R and dependencies, both system dependencies and R packages,
 including the <code>lambdr</code> package</li>
@@ -375,7 +375,7 @@ package interprets the handler as the name of the function to use, in
 this case, “parity”. The <code>CMD</code> can also be set (or overriden)
 when setting up the Lambda in AWS.</li>
 </ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode dockerfile"><code class="sourceCode dockerfile"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="kw">FROM</span> public.ecr.aws/lambda/provided</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode dockerfile"><code class="sourceCode dockerfile"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="kw">FROM</span> public.ecr.aws/lambda/provided:al2</span>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="kw">ENV</span> R_VERSION=4.0.3</span>
 <span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a></span>

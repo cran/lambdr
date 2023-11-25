@@ -1,7 +1,7 @@
 Package: lambdr
 Title: Create a Runtime for Serving Containerised R Functions on 'AWS
         Lambda'
-Version: 1.2.4
+Version: 1.2.5
 Authors@R: 
     c(person(given = "David",
              family = "Neuzerling",
@@ -27,9 +27,9 @@ URL: https://lambdr.mdneuzerling.com/,
 BugReports: https://github.com/mdneuzerling/lambdr/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2023-09-30 09:23:48 UTC; mdneuzerling
+Packaged: 2023-11-25 10:29:51 UTC; mdneuzerling
 Author: David Neuzerling [aut, cre],
   James Goldie [ctb]
 Maintainer: David Neuzerling <david@neuzerling.com>
 Repository: CRAN
-Date/Publication: 2023-09-30 10:00:02 UTC
+Date/Publication: 2023-11-25 11:00:02 UTC
